@@ -29,6 +29,146 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "1bbd1be4-9f83-48e2-90b0-2d63b17d1fa9",
+      "category": "nature",
+      "title": "y",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "84b983bd-2561-4147-ac3b-bc8edeed6830",
+      "category": "nature",
+      "title": "plant",
+      "description": "see plants",
+      "location": "tokyo",
+      "date": "yesterday",
+      "time": "now",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "17b26592-cf70-4747-b129-58efd9b15cec",
+      "category": "nature",
+      "title": "plants",
+      "description": "see plants",
+      "location": "tokyo",
+      "date": "yesterday",
+      "time": "now",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "a23ec3b2-ebe0-43a2-9263-ac2f99f5507e",
+      "category": "",
+      "title": "plants",
+      "description": "see plants",
+      "location": "tokyo",
+      "date": "yesterday",
+      "time": "now",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "3971abdd-9607-42fe-9968-2cf174d082d7",
+      "category": "housing",
+      "title": "house",
+      "description": "see a house",
+      "location": "here",
+      "date": "today",
+      "time": "14",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "6d028796-d4c0-466b-afea-71a0117fb0ae",
+      "category": "housing",
+      "title": "test",
+      "description": "test",
+      "location": "test",
+      "date": "t",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "eead57d9-99ad-45ba-9f44-81340040ee8a",
+      "category": "education",
+      "title": "edu",
+      "description": "test",
+      "location": "school",
+      "date": "now",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "f1cd209a-9999-4903-acf6-aa6ce6c1cdfe",
+      "category": "housing",
+      "title": "house",
+      "description": "viewing",
+      "location": "home",
+      "date": "19",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "12b43cf2-7bd9-49b3-83cb-3f5d85507372",
+      "category": "food",
+      "title": "dinner",
+      "description": "eeat dinner",
+      "location": "restaurant",
+      "date": "friday",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "20f2ca94-a356-47e7-a44d-653973b33e09",
+      "category": "community",
+      "title": "hanging out",
+      "description": "chilling",
+      "location": "ayase",
+      "date": "thursday",
+      "time": "22",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "c29ffd60-cbdd-4da6-b669-74f09f5f9441",
+      "category": "animal welfare",
+      "title": "pet ",
+      "description": "pet your pets",
+      "location": "home",
+      "date": "",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "8ccc9ade-80c9-4eb5-bb45-c5814b51fde6",
+      "category": "housing",
+      "title": "house",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "3f5ba211-f4b4-4e23-981f-f1023449b7be",
+      "category": "housing",
+      "title": "te",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
+    },
+    {
+      "id": "0f63e3ae-05bd-4ca4-a325-29cc62b407e8",
+      "category": "food",
+      "title": "ee",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "organizer": "Marleen Elisabeth Dijkman"
     }
   ]
 }

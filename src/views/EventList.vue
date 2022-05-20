@@ -1,29 +1,34 @@
 <script>
 import EventCard from '../components/EventCard.vue'
+import { useEventStore } from "../stores/EventStore";
+
 export default {
+    setup() {
+    const eventStore = useEventStore();
+
+    return {
+      eventStore,
+    };
+  },
   components: {
     EventCard
   },
   created() {
-    this.$store.dispatch('fetchEvents').catch(error => {
+    this.eventStore.fetchEvents().catch(error => {
       this.$router.push({
         name: 'ErrorDisplay',
         params: { error: error }
       })
     })
   },
-  computed: {
-    events() {
-      return this.$store.state.events
-    }
-  }
 }
 </script>
 
 <template>
   <h1>Events for Good</h1>
   <div class="events">
-    <EventCard v-for="event in events" :key="event.id" :event="event" />
+    There are {{eventStore.getAmountOfEvents}} events
+    <EventCard v-for="event in eventStore.events" :key="event.id" :event="event" />
   </div>
 </template>
 

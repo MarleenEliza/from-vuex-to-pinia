@@ -1,54 +1,65 @@
 <script>
-import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from "uuid";
+import { useUserStore } from "../stores/UserStore";
+import { useEventStore } from "../stores/EventStore";
 
 export default {
+  setup() {
+    const {getLastName} = useUserStore();
+    const eventStore = useEventStore();
+
+    return {
+      userStore,
+      eventStore,
+    };
+  },
   data() {
     return {
       categories: [
-        'sustainability',
-        'nature',
-        'animal welfare',
-        'housing',
-        'education',
-        'food',
-        'community'
+        "sustainability",
+        "nature",
+        "animal welfare",
+        "housing",
+        "education",
+        "food",
+        "community",
       ],
       event: {
-        id: '',
-        category: '',
-        title: '',
-        description: '',
-        location: '',
-        date: '',
-        time: '',
-        organizer: ''
-      }
-    }
+        id: "",
+        category: "",
+        title: "",
+        description: "",
+        location: "",
+        date: "",
+        time: "",
+        organizer: "",
+      },
+    };
   },
   methods: {
     onSubmit() {
       const event = {
         ...this.event,
         id: uuidv4(),
-        organizer: this.$store.state.user
-      }
-      this.$store
-        .dispatch('createEvent', event)
+        organizer: this.userStore.user,
+      };
+      this.eventStore
+        .createEvent(event)
         .then(() => {
           this.$router.push({
-            name: 'EventDetails',
-            params: { id: event.id }
-          })
+            name: "EventDetails",
+            params: { id: event.id },
+          });
         })
-        .catch(error => {
+        .catch((error) => {
           this.$router.push({
-            name: 'ErrorDisplay',
-            params: { error: error }
-          })
-        })
-    }
-  }
-}
+            name: "ErrorDisplay",
+            params: { error: error },
+          });
+        });
+    },
+  },
+};
 </script>
 
 <template>
